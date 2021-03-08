@@ -11,7 +11,7 @@ package com.mycompany.calculadora;
  */
 public class Calculadora {
     private int operador1;
-    private int operador2;
+    private int oper2;
     private int operador;
 
     public int getOperador1() {
@@ -23,11 +23,11 @@ public class Calculadora {
     }
 
     public int getOperador2() {
-        return operador2;
+        return oper2;
     }
 
     public void setOperador2(int operador2) {
-        this.operador2 = operador2;
+        this.oper2 = operador2;
     }
 
     public int getOperacion() {
