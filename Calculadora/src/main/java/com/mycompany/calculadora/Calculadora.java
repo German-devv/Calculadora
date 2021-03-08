@@ -10,8 +10,18 @@ package com.mycompany.calculadora;
  * @author germa
  */
 public class Calculadora {
+
+    /**
+     * operador1x<zx
+     */
     private int operador1;
+    /**
+     * operador2x<zx
+     */
     private int operador2;
+    /**
+     * operacion1x<zx
+     */
     private int operacion;
 
     public int getOperador1() {
@@ -37,5 +47,5 @@ public class Calculadora {
     public void setOperacion(int operacion) {
         this.operacion = operacion;
     }
-    
+
 }
